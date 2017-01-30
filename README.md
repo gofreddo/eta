@@ -13,7 +13,8 @@ $ npm i @gofreddo/eta --save
 ## Usage
 
 ```js
-  const eta = new eta({
+  const Eta = require('@gofreddo/eta');
+  const eta = new Eta({
     total: 10,
   });
 

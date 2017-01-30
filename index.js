@@ -1,5 +1,5 @@
 'use strict';
 
-const eta = require('./index').progress;
+const eta = require('./lib').progress;
 
 module.exports = eta;
