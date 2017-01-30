@@ -7,7 +7,7 @@
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i @gofreddo/eta --save-dev
+$ npm i @gofreddo/eta --save
 ```
 
 ## Usage
@@ -31,6 +31,29 @@ $ npm i @gofreddo/eta --save-dev
       clearInterval(handle);
     }
   }, 1000);
+```
+
+```js
+tick = {
+  "startTime": "2017-01-30T00:10:48.387Z",
+  "eta": "2017-01-30T00:10:58.437Z",
+  "secondsRemaining": 0,
+  "percentComplete": 1,
+  "count": 10,
+  "total": 10,
+  "timeTo": "a few seconds ago",
+  "finishedAt": "2017-01-30T00:10:58.437Z"
+}
+finished = {
+  "startTime": "2017-01-30T00:10:48.387Z",
+  "eta": "2017-01-30T00:10:58.437Z",
+  "secondsRemaining": 0,
+  "percentComplete": 1,
+  "count": 10,
+  "total": 10,
+  "timeTo": "a few seconds ago",
+  "finishedAt": "2017-01-30T00:10:58.437Z"
+}
 ```
 
 ## Running tests
