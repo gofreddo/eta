@@ -1,0 +1,36 @@
+{
+  "name": "@gofreddo/eta",
+  "version": "1.0.0",
+  "description": "Calcutates estimated time remaining(ETA) estimated finish time and percent complete for large processes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gofreddo/eta.git"
+  },
+  "keywords": [
+    "ETA",
+    "progress",
+    "percent",
+    "complete"
+  ],
+  "author": "Jeff Wilde <jeff.wilde@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gofreddo/eta/issues"
+  },
+  "homepage": "https://github.com/gofreddo/eta#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "moment": "^2.17.1"
+  }
+}
