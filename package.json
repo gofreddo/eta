@@ -1,6 +1,6 @@
 {
   "name": "@gofreddo/eta",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Calcutates estimated time remaining(ETA) estimated finish time and percent complete for large processes.",
   "main": "index.js",
   "scripts": {
